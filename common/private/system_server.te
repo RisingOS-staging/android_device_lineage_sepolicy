@@ -14,3 +14,6 @@ get_prop(system_server, vendor_persist_camera_prop)
 
 # Let system server toggle xtra-daemon
 set_prop(system_server, xtra_control_prop)
+
+allow system_server bootanim_data_file:dir create_dir_perms;
+allow system_server bootanim_data_file:file create_file_perms;
