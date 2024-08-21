@@ -1,3 +1,7 @@
+# Bootanim
+allow system_app bootanim_data_file:dir { create write add_name getattr read open remove_name search };
+allow system_app bootanim_data_file:file { create write setattr read open getattr };
+
 # Allow Settings to read ro.vendor.build.security_patch
 get_prop(system_app, vendor_security_patch_level_prop)
 

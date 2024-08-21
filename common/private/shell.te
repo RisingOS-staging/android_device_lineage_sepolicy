@@ -1,0 +1,2 @@
+# Bootanim
+allow shell bootanim_data_file:dir { getattr search open read };
