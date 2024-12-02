@@ -34,3 +34,6 @@ persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact boo
 persist.sysui.disable_mirroring_confirmation_dialog u:object_r:hdmi_config_prop:s0
 
 persist.sys.bootanimation_style     u:object_r:bootanim_system_prop:s0 exact int
+
+# Columbus ApSensor
+persist.columbus.use_ap_sensor          u:object_r:system_prop:s0
