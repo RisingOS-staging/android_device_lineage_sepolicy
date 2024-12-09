@@ -15,3 +15,5 @@ allow platform_app system_prop:property_service set;
 
 # Bootanim
 allow platform_app bootanim_system_prop:property_service set;
+
+allow platform_app zygote:unix_stream_socket getopt;
